@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Btechnologies</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header with Flexbox Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>BTECHNOLOGIES</h1>
+                </div>
+                <nav class="nav">
+                    <button class="nav-toggle" id="navToggle">
+                        <i class="fas fa-bars" id="menuIcon"></i>
+                    </button>
+                    <ul class="nav-menu" id="navMenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html" class="active">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Contact Section with Enhanced CSS Grid and Flexbox -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Request technical assistance for your project</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-info-grid">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Address: Fourways, 16 Butterfly St, Riverside View Ext 34, Sandton, 2191</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>techsupport@btechnologies.co.za</p>
+                                <p>info@btechnologies.co.za</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h3>WhatsApp</h3>
+                                <p>073-371-2011</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links-container">
+                        <h3>Connect With Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3 class="form-title">Technical Support Request</h3>
+                    <form id="contactForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="address">Address</label>
+                                <input type="text" id="address" name="address" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="technician">Request Technician</label>
+                            <select id="technician" name="technician" required>
+                                <option value="">Select a specialist</option>
+                                <option value="remote">Remote Support</option>
+                                <option value="onsite">On-site Installation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Location for Assistance</label>
+                            <select id="location" name="location" required>
+                                <option value="">Select a location</option>
+                                <option value="johannesburg">Johannesburg</option>
+                                <option value="northwest">Northwest</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="issue">Issue Description</label>
+                            <textarea id="issue" name="issue" rows="5" placeholder="Please describe your technical issue in detail" required></textarea>
+                        </div>
+                        <div class="form-buttons">
+                            <button type="submit" class="btn btn-primary">Send Request</button>
+                            <button type="reset" class="btn btn-secondary">Clear Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Working Hours Section -->
+            <div class="working-hours">
+                <h3>Working Hours</h3>
+                <div class="hours-container">
+                    <div class="hours-item">
+                        <span class="day">Monday - Friday:</span>
+                        <span class="time">08:00am - 17:00pm</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Saturday:</span>
+                        <span class="time">09:00am - 16:00pm</span>
+                    </div>
+                    <div class="hours-item">
+                        <span class="day">Sunday:</span>
+                        <span class="time">Closed</span>
+                    </div>
+                </div>
+                <p class="support-note"><strong><em>We offer 24/7 remote support, so you can rest assured that help is always just a phone call or click away, no matter when issues arise.</em></strong></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer with Flexbox -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>BTECHNOLOGIES</h2>
+                    <p>Your Connection, Our Passion</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BTECHNOLOGIES. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
