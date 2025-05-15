@@ -31,6 +31,7 @@
         </div>
     </header>
 
+    
     <!-- Services Section -->
     <section class="features" id="services">
         <div class="container">
@@ -85,6 +86,44 @@
         </div>
     </section>
 
+    <!-- Image Slider Section - ADD THE SLIDER HTML HERE -->
+    <section class="slider-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Work in Action</h2>
+                <p>See our expert technicians installing and configuring network solutions</p>
+            </div>
+            
+            <!-- This is where the slider HTML structure goes -->
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="https://images.unsplash.com/photo-1544026230-488aeae72c0d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="connecting people">
+                        <div class="slide-content">
+                            <h3>Network Infrastructure Setup</h3>
+                            <p>Our certified technicians ensure your network infrastructure is properly configured for optimal performance.</p>
+                        </div>
+                    </div>
+                    <!-- More slides -->
+                </div>
+                
+                <div class="slider-controls">
+                    <button class="slider-btn prev" aria-label="Previous slide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="slider-dots">
+                        <span class="dot active" data-slide="0"></span>
+                        <span class="dot" data-slide="1"></span>
+                        <span class="dot" data-slide="2"></span>
+                        <span class="dot" data-slide="3"></span>
+                    </div>
+                    <button class="slider-btn next" aria-label="Next slide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> 
     <!-- Footer with Flexbox -->
     <footer class="footer">
         <div class="container">
@@ -101,5 +140,6 @@
     </footer>
 
     <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
